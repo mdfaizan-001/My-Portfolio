@@ -3,24 +3,19 @@
   --void: #06070d;
   --surface: #0d1120;
   --surface-2: #131829;
-
   --glass-bg: rgba(255, 255, 255, 0.045);
   --glass-bg-hover: rgba(255, 255, 255, 0.075);
   --glass-border: rgba(255, 255, 255, 0.09);
   --glass-border-hover: rgba(255, 255, 255, 0.18);
-
   --violet: #7c6cff;
   --violet-soft: #a99bff;
   --cyan: #38e1e8;
-
   --text-hi: #f3f5fb;
   --text-mid: #9aa1b8;
   --text-low: #5c6480;
-
   --radius-lg: 22px;
   --radius-md: 16px;
   --radius-sm: 10px;
-
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --mx: 50%;
   --my: 50%;
@@ -28,9 +23,7 @@
 
 /* ---------- Reset ---------- */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
-
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--void);
@@ -40,11 +33,9 @@ body {
   min-height: 100vh;
   line-height: 1.6;
 }
-
 img { max-width: 100%; display: block; }
 a { text-decoration: none; color: inherit; }
 ul, li { list-style: none; }
-
 ::selection { background: var(--violet); color: #fff; }
 
 /* Scrollbar */
