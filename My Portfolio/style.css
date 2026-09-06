@@ -46,7 +46,6 @@ ul, li { list-style: none; }
   border-radius: 10px;
   border: 2px solid var(--void);
 }
-
 :focus-visible {
   outline: 2px solid var(--cyan);
   outline-offset: 3px;
@@ -160,7 +159,6 @@ body::after {
 }
 
 .section-heading { margin-bottom: 56px; }
-
 .section-heading p,
 .contact-label {
   font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
